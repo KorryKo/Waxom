@@ -1,0 +1,59 @@
+.main-header {
+    background-image: url(img/background.png);
+}
+
+.main-header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+
+.carusel-pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.multi_photo {
+    width: 100%;
+    min-height: 482px;
+    background-image: url('img/browser-left.png'),
+                      url('img/browser-center.png'),
+                      url('img/browser-right.png');
+  
+    background-size: 60%, 40%, 40%;
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
+  }
+  .mobile-devices{
+    width: 100%;
+    min-height: 695px;
+    background-image: url(img/phone-in-hand.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  .partners {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      min-height: 489px;
+
+    background-image: url(img/background-bottom.png);
+    background-repeat: no-repeat;
+  }
