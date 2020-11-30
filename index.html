@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -44,47 +45,44 @@
         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
             possim assum.</p>
         <button>Get Started</button>
-        <div class="carusel-pagination">
-            <a href="#" class="carusel-pagination-item"></a>
-            <a href="#" class="carusel-pagination-item"></a>
-            <a href="#" class="carusel-pagination-item"></a>
-            <a href="#" class="carusel-pagination-item"></a>
-            <a href="#" class="carusel-pagination-item"></a>
-        </div>
+        <ul class="carusel-pagination">
+            <li><a href="#" class="carusel-pagination-item"></a></li>
+            <li><a href="#" class="carusel-pagination-item"></a></li>
+            <li><a href="#" class="carusel-pagination-item"></a></li>
+            <li><a href="#" class="carusel-pagination-item"></a></li>
+            <li><a href="#" class="carusel-pagination-item"></a></li>
+        </ul>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <div>
+        <section class="advantages container">
+            <ul class="advantage-box">
+                <li class="advantage">
                     <img src="img/icon-pencil.svg" alt="pencil">
                     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
                     </p>
-
-                </div>
-                <div>
+                </li>
+                <li class="advantage">
                     <img src="img/development.svg" alt="development">
                     <h2>Development</h2>
                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
                     </p>
-
-                </div>
-                <div>
+                </li>
+                <li class="advantage">
                     <img src="img/customization.svg" alt="Customization">
                     <h2>Customization</h2>
                     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
                     </p>
-
-                </div>
-                <div>
+                </li>
+                <li class="advantage">
                     <img src="img/marketing.svg" alt="Marketing">
                     <h2>Marketing</h2>
                     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
                     </p>
+                </li>
+            </ul>
 
-                </div>
-            </div>
         </section>
-        <section>
+        <section class="about">
             <div class="container">
                 <h2>Waxom is Realization of your Ideas.</h2>
                 <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
@@ -92,12 +90,12 @@
                 <div class="multi_photo"></div>
             </div>
         </section>
-        <section>
+        <section class="purchase-now">
             <h2>Waxom Multipurpose WordPress Theme</h2>
             <p>Don't Forget to Rate the Template. Thanks so much!</p>
             <button>Purchase Now</button>
         </section>
-        <section>
+        <section class="latest-projects">
             <h2>Our Latest Projects.</h2>
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
                 processus dynamicus, qui sequitur mutationem consuetudium.</p>
@@ -152,7 +150,7 @@
             </div>
             <button>Load More</button>
         </section>
-        <section>
+        <section class="video-presentation">
             <iframe width="100%" height="705" src="https://www.youtube.com/embed/IPvSAtAsMM4" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
@@ -177,95 +175,105 @@
                 <li>Investigationes demonstraverunt lectores</li>
             </ul>
         </section>
-        <section>
-            <div>
-                <img src="img/clients.svg" alt="clients-logo">
-                <h2>3587</h2>
-                <h3>Satisfied Clients</h3>
-            </div>
-            <div>
-                <img src="img/coffee.svg" alt="coffee">
-                <h2>207</h2>
-                <h3>Cups of coffee</h3>
-            </div>
-            <div>
-                <img src="img/blog-post.svg" alt="blog post">
-                <h2>2500</h2>
-                <h3>Blog posts</h3>
-            </div>
-            <div>
-                <img src="img/like.svg" alt="like icon">
-                <h2>873</h2>
-                <h3>Likes</h3>
-            </div>
-            <div>
-                <img src="img/lunch.svg" alt="lunch icon">
-                <h2>900</h2>
-                <h3>We launched</h3>
+        <section class="rates">
+            <div class="container">
+                <ul class="rate-box">
+                    <li class="rate">
+                        <img src="img/clients.svg" alt="clients-logo">
+                        <h2>3587</h2>
+                        <h3>Satisfied Clients</h3>
+                    </li>
+                    <li class="rate">
+                        <img src="img/coffee.svg" alt="coffee">
+                        <h2>207</h2>
+                        <h3>Cups of coffee</h3>
+                    </li>
+                    <li class="rate">
+                        <img src="img/blog-post.svg" alt="blog post">
+                        <h2>2500</h2>
+                        <h3>Blog posts</h3>
+                    </li>
+                    <li class="rate">
+                        <img src="img/like.svg" alt="like icon">
+                        <h2>873</h2>
+                        <h3>Likes</h3>
+                    </li>
+                    <li class="rate">
+                        <img src="img/lunch.svg" alt="lunch icon">
+                        <h2>900</h2>
+                        <h3>We launched</h3>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section>
+        <section class="recent-posts">
             <h2>Recent Posts.</h2>
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
                 processus dynamicus, qui sequitur mutationem consuetudium.</p>
-            <div>
-                <figure>
-                    <img src="img/post-1.jpg" alt="post img">
-                    <figcaption>
-                        <h2>Lorem ipsum dolor sit amet</h2>
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                        <a href="#">Read More</a>
-                    </figcaption>
-                    <div class="date">
-                        <span class="data">30</span>
-                        <span class="day">sep.</span>
-                    </div>
-                    <div class="carusel-pagination">
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                    </div>
-                </figure>
-                <figure>
-                    <img src="img/post_2.jpg" alt="post img">
-                    <figcaption>
-                        <h2>Lorem ipsum dolor sit amet</h2>
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                        <a href="#">Read More</a>
-                    </figcaption>
-                    <div class="date">
-                        <span class="data">30</span>
-                        <span class="day">sep.</span>
-                    </div>
-                    <div class="carusel-pagination">
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                    </div>
-                </figure>
-                <figure>
-                    <img src="img/post_3.jpg" alt="post img">
-                    <figcaption>
-                        <h2>Lorem ipsum dolor sit amet</h2>
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                        <a href="#">Read More</a>
-                    </figcaption>
-                    <div class="date">
-                        <span class="data">30</span>
-                        <span class="day">sep.</span>
-                    </div>
-                    <div class="carusel-pagination">
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                        <a href="#" class="carusel-pagination-item"></a>
-                    </div>
-                </figure>
+            <div class="article-box">
+                <ul>
+                    <li>
+                        <article>
+                            <img src="img/post-1.jpg" alt="post img">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <a href="#">Read More</a>
+                            <div class="date">
+                                <span class="data">30</span>
+                                <span class="day">sep.</span>
+                            </div>
+                            <ul class="carusel-pagination">
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                            </ul>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="img/post_2.jpg" alt="post img">
+                            <figcaption>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                <a href="#">Read More</a>
+                            </figcaption>
+                            <div class="date">
+                                <span class="data">30</span>
+                                <span class="day">sep.</span>
+                            </div>
+                            <ul class="carusel-pagination">
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                            </ul>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <img src="img/post_3.jpg" alt="post img">
+                            <figcaption>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                                <a href="#">Read More</a>
+                            </figcaption>
+                            <div class="date">
+                                <span class="data">30</span>
+                                <span class="day">sep.</span>
+                            </div>
+                            <ul class="carusel-pagination">
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                                <li><a href="#" class="carusel-pagination-item"></a></li>
+                            </ul>
+                        </article>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="partners">
@@ -316,10 +324,13 @@
             </div>
             <div class="footer-widget">
                 <h2>Dribbble Widget</h2>
-                <img src="img/footer-widget-phone.jpg" alt="widget phone">
-                <img src="img/footer-widget-bag.jpg" alt="widget bag">
-                <img src="img/footer-widget-magazine.jpg" alt="widget magazine">
-                <img src="img/footer-widget-icons.jpg" alt="widjet icons">
+                <ul>
+                    <li><img src="img/footer-widget-phone.jpg" alt="widget phone"></li>
+                    <li><img src="img/footer-widget-bag.jpg" alt="widget bag"></li>
+                    <li> <img src="img/footer-widget-magazine.jpg" alt="widget magazine"></li>
+                    <li><img src="img/footer-widget-icons.jpg" alt="widjet icons"></li>
+                </ul>
+
             </div>
         </div>
         <div class="footer-bottom">
