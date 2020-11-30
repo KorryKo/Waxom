@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 40px 3rem;
+}
+
+.main-header {
+    width: 100%;
+    min-height: 1024px;
+    background-image: url(img/background.png);
+    color: white;
+}
+
+.main-header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+
+.carusel-pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.carusel-pagination-item {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.advantages {
+    width: 100%;
+    min-height: 373px;
+
+}
+
+.advantage-box {
+    display: flex;
+    align-items: center;
+}
+
+.advantage {
+    list-style: none;
+    width: 20%;
+}
+
+.multi_photo {
+    width: 100%;
+    min-height: 482px;
+    background-image: url('img/browser-left.png'),
+        url('img/browser-center.png'),
+        url('img/browser-right.png');
+
+    background-size: 60%, 40%, 40%;
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
+}
+
+.mobile-devices {
+    width: 100%;
+    min-height: 695px;
+    background-image: url(img/phone-in-hand.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.rate-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    list-style: none;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 489px;
+
+    background-image: url(img/background-bottom.png);
+    background-repeat: no-repeat;
+}
