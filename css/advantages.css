@@ -1,0 +1,45 @@
+.advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 373px;
+}
+
+.advantage-box {
+    display: flex;
+}
+
+.advantage {
+
+    list-style: none;
+    width: 20%;
+    padding: 0 33px;
+    text-align: center;
+    align-self: center;
+}
+
+.advantage::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: #f1eee9;
+    margin: 24px auto;
+}
+
+.advantage-heading {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 600;
+    color: #555555;
+    padding: 29px 0 19px 0;
+}
+
+.advantage-paragraph {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    line-height: 24px;
+}

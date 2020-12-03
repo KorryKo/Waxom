@@ -1,0 +1,8 @@
+
+.mobile-devices {
+    width: 100%;
+    min-height: 695px;
+    background-image: url(../img/phone-in-hand.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
