@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +17,7 @@
             <nav class="main-header-nav">
                 <div>
                     <a href="#" class="logo">
-                        <img src="img/logo.svg" alt="logo">
+                        <img src="img/logo.svg" alt="logo" width="64" height="56">
                         <span class="logo-txt">Waxom</span>
                     </a>
                 </div>
@@ -39,10 +36,10 @@
 
                     <div class="navigation-right">
                         <a href="#" class="navigation-right-item">
-                            <img src="img/icon-cart.svg" alt="cart icon">
+                            <img src="img/icon-cart.svg" alt="cart icon" width="18" height="24">
                         </a>
                         <a href="#">
-                            <img src="img/icon-search.svg" alt="search icon">
+                            <img src="img/icon-search.svg" alt="search icon" width="18" height="24">
                         </a>
                     </div>
                 </div>
@@ -54,7 +51,7 @@
         <div class="carusel">
 
 
-            <a href="#" class="carusel-btn left"></a>
+            <button class="carusel-btn left"></button>
             <div class="carusel-txt">
                 <div class="header-content">
                     <h1 class="visually-hidden">Portfolio PSD Template</h1>
@@ -68,14 +65,14 @@
                     <button class="header-button">Get Started</button>
                 </div>
             </div>
-            <a href="#" class="carusel-btn right"></a>
+            <button class="carusel-btn right"></button>
 
             <div class="carusel-pagination">
-                <a href="#" class="carusel-pagination-item"></a>
-                <a href="#" class="carusel-pagination-item"></a>
-                <a href="#" class="carusel-pagination-item"></a>
-                <a href="#" class="carusel-pagination-item"></a>
-                <a href="#" class="carusel-pagination-item"></a>
+                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
             </div>
         </div>
 
@@ -86,31 +83,32 @@
 
     <main>
         <section class="advantages container">
+            <h2 class="visually-hidden">advantages</h2>
             <ul class="advantage-box">
-                <li class="advantage">
-                    <img src="img/icon-pencil.svg" alt="pencil">
-                    <h2 class="advantage-heading">Web & App Design</h2>
+                <li class="advantage special">
+                    <img src="img/icon-pencil.svg" alt="pencil" width="49" height="49">
+                    <h3 class="advantage-heading">Web & App Design</h3>
                     <p class="advantage-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil
                         imperdiet doming id quod mazim.
                     </p>
                 </li>
-                <li class="advantage">
-                    <img src="img/development.svg" alt="development">
-                    <h2 class="advantage-heading">Development</h2>
+                <li class="advantage special">
+                    <img src="img/development.svg" alt="development" width="44" height="40">
+                    <h3 class="advantage-heading">Development</h3>
                     <p class="advantage-paragraph">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh
                         euismod tincidunt ut laoreet.
                     </p>
                 </li>
-                <li class="advantage">
-                    <img src="img/customization.svg" alt="Customization">
-                    <h2 class="advantage-heading">Customization</h2>
+                <li class="advantage special">
+                    <img src="img/customization.svg" alt="Customization" width="44" height="44">
+                    <h3 class="advantage-heading">Customization</h3>
                     <p class="advantage-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil
                         imperdiet doming id quod mazim.
                     </p>
                 </li>
-                <li class="advantage">
-                    <img src="img/marketing.svg" alt="Marketing">
-                    <h2 class="advantage-heading">Marketing</h2>
+                <li class="advantage special">
+                    <img src="img/marketing.svg" alt="Marketing" width="52" height="36">
+                    <h3 class="advantage-heading">Marketing</h3>
                     <p class="advantage-paragraph">Nam liber tempor cum soluta nobis eleifend option congue nihil
                         imperdiet doming id quod mazim.
                     </p>
@@ -121,7 +119,7 @@
 
         <section class="about">
             <div class="container">
-                <h2 class="about-heading">Waxom is Realization of your Ideas.</h2>
+                <h3 class="about-heading">Waxom is Realization of your Ideas.</h3>
                 <p class="about-paragraph">Investigationes demonstraverunt lectores legere me lius quod ii legunt
                     saepius. Claritas est etiam
                     processus dynamicus, qui sequitur mutationem consuetudium.</p>
@@ -155,180 +153,263 @@
                 <li><button class="latest-projects-btn">Illustration</button></li>
                 <li><button class="latest-projects-btn">Photography</button></li>
             </ul>
-            <div class="gallery">
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/phone.jpg" alt="phone">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Claritas Etiam Processus</h3>
-                        <h4 class="gallery-item-heading4">Photography, Nature</h4>
-                    </figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/rock-in-the-sea.jpg" alt="rock in the sea">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Quam Nutamus Farum</h3>
-                        <h4 class="gallery-item-heading4">Graphic Design, Mock-Up</h4>
-                    </figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/book.jpg" alt="book">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Usus Legentis Videntur</h3>
-                        <h4 class="gallery-item-heading4">Photography, Holiday</h4>
-                    </figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/birds.jpg" alt="birds">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Claritas Etiam Processus</h3>
-                        <h4 class="gallery-item-heading4">Photography, Nature</h4>
-                    </figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/magazine.jpg" alt="magazine">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Quam Nutamus Farum</h3>
-                        <h4 class="gallery-item-heading4">Graphic Design, Mock-Up</h4>
-                    </figcaption>
-                </figure>
-                <figure class="gallery-item">
-                    <img class="gallery-item-photo" src="img/rock-hill.jpg" alt="rock hill">
-                    <figcaption class="gallery-item-description">
-                        <h3 class="gallery-item-heading3">Usus Legentis Videntur</h3>
-                        <h4 class="gallery-item-heading4">Photography, Holiday</h4>
-                    </figcaption>
-                </figure>
+            <ul class="gallery">
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/phone.jpg" alt="phone" width="370" height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Claritas Etiam Processus</h3>
+                            <h4 class="gallery-item-heading4">Photography, Nature</h4>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/rock-in-the-sea.jpg" alt="rock in the sea" width="370"
+                            height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Quam Nutamus Farum</h3>
+                            <h4 class="gallery-item-heading4">Graphic Design, Mock-Up</h4>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/book.jpg" alt="book" width="370" height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Usus Legentis Videntur</h3>
+                            <h4 class="gallery-item-heading4">Photography, Holiday</h4>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/birds.jpg" alt="birds" width="370" height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Claritas Etiam Processus</h3>
+                            <h4 class="gallery-item-heading4">Photography, Nature</h4>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/magazine.jpg" alt="magazine" width="370" height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Quam Nutamus Farum</h3>
+                            <h4 class="gallery-item-heading4">Graphic Design, Mock-Up</h4>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="gallery-item">
+                    <figure>
+                        <img class="gallery-item-photo" src="img/rock-hill.jpg" alt="rock hill" width="370"
+                            height="237">
+                        <figcaption class="gallery-item-description">
+                            <h3 class="gallery-item-heading3">Usus Legentis Videntur</h3>
+                            <h4 class="gallery-item-heading4">Photography, Holiday</h4>
+                        </figcaption>
+                    </figure>
+                </li>
                 <button class="gallery-button">Load More</button>
+                </div>
+        </section>
+
+        <section class="video-presentation">
+            <video class="video-file" width="100%" height="705" autoplay loop muted src="video/video.mp4">
+            </video>
+            <div class="video-content">
+                <button class="video-button">
+                    <img src="img/video-button.svg" alt="play button">
+                </button>
+                <h2 class="video-content-heading">Waxom Video Presentation</h2>
+                <p class="video-content-paragraph">Investigationes demonstraverunt lectores legere me lius quod ii
+                    legunt saepius, qui sequitur
+                    mutationem
+                    consuetudium.</p>
+                <time class="video-timer">03:26</time>
+            </div>
+        </section>
+
+        <section class="mobile-devices container">
+            <div class="mobile-devices-content">
+                <div class="mobile-devices-align">
+                    <h2 class="mobile-devices-heading">Excellent for Mobile Devices.</h2>
+                    <p class="mobile-devices-paragraph">Qisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip
+                        ex ea
+                        commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                        saepius
+                        claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                </div>
+                <ul class="mobile-devices-list">
+                    <li class="mobile-devices-list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                    <li class="mobile-devices-list-item">Option congue nihil imperdiet doming id quod mazim placerat
+                        facer;</li>
+                    <li class="mobile-devices-list-item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                    <li class="mobile-devices-list-item">Investigationes demonstraverunt lectores</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="rates">
+            <div class="container">
+                <h2 class="visually-hidden">our rates</h2>
+                <ul class="rate-box">
+                    <li class="rate">
+                        <img class="rate-img" src="img/clients.svg" alt="clients-logo">
+                        <h3 class="rate-number">3587</h3>
+                        <h4 class="rate-description">Satisfied Clients</h4>
+                    </li>
+                    <li class="rate">
+                        <img class="rate-img" src="img/coffee.svg" alt="coffee">
+                        <h3 class="rate-number">207</h3>
+                        <h4 class="rate-description">Cups of coffee</h4>
+                    </li>
+                    <li class="rate">
+                        <img class="rate-img" src="img/blog-post.svg" alt="blog post">
+                        <h3 class="rate-number">2500</h3>
+                        <h4 class="rate-description">Blog posts</h4>
+                    </li>
+                    <li class="rate">
+                        <img class="rate-img" src="img/like.svg" alt="like icon">
+                        <h3 class="rate-number">873</h3>
+                        <h4 class="rate-description">Likes</h4>
+                    </li>
+                    <li class="rate">
+                        <img class="rate-img" src="img/lunch.svg" alt="lunch icon">
+                        <h3 class="rate-number">900</h3>
+                        <h4 class="rate-description">We launched</h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="recent-posts container">
+            <div class="recent-posts-content">
+                <h2 class="recent-posts-heading">Recent Posts.</h2>
+                <p class="recent-posts-paragraph">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius. Claritas est etiam
+                    processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+            <ul class="article-box">
+                <li>
+                    <article class="article">
+                        <img class="article-img" src="img/post-1.jpg" alt="post img" width="370" height="220">
+                        <div class="article-date">
+                            <span class="article-data">30</span>
+                            <span class="article-month">sep.</span>
+                        </div>
+                        <div class="article-pagination">
+                            <label>
+                                <input type="radio" name="article-1">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-1">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-1">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-1">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-1">
+                                <span></span>
+                            </label>
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-content-heading">Lorem ipsum dolor sit amet</h2>
+                                <p class="article-content-paragraph">Claritas est etiam processus dynamicus, qui
+                                    sequitur mutationem consuetudium.</p>
+                                <a class="article-content-link" href="#">Read More</a>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article">
+                        <img src="img/post_2.jpg" alt="post img" width="370" height="220">
+                        <div class="article-date">
+                            <span class="article-data">30</span>
+                            <span class="article-month">sep.</span>
+                        </div>
+                        <div class="article-pagination">
+                            <label>
+                                <input type="radio" name="article-2">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-2">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-2">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-2">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-2">
+                                <span></span>
+                            </label>
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-content-heading">Lorem ipsum dolor sit amet</h2>
+                                <p class="article-content-paragraph">Claritas est etiam processus dynamicus, qui
+                                    sequitur mutationem consuetudium.</p>
+                                <a class="article-content-link" href="#">Read More</a>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article">
+                        <img src="img/post_3.jpg" alt="post img" width="370" height="220">
+                        <div class="article-date">
+                            <span class="article-data">30</span>
+                            <span class="article-month">sep.</span>
+                        </div>
+                        <div class="article-pagination">
+                            <label>
+                                <input type="radio" name="article-3">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-3">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-3">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-3">
+                                <span></span>
+                            </label>
+                            <label>
+                                <input type="radio" name="article-3">
+                                <span></span>
+                            </label>
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-content-heading">Lorem ipsum dolor sit amet</h2>
+                                <p class="article-content-paragraph">Claritas est etiam processus dynamicus, qui
+                                    sequitur mutationem consuetudium.</p>
+                                <a class="article-content-link" href="#">Read More</a>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <div class="article-navigation">
+                <button class="article-navigation-item"><img src="img/article-left.svg" alt="nav left"></button>
+                <button class="article-navigation-item"><img src="img/article-right.svg" alt="nav right"></button>
             </div>
         </section>
         <!--
-        <section class="video-presentation">
-            <iframe width="100%" height="705" src="https://www.youtube.com/embed/IPvSAtAsMM4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-            <div class="video-content">
-                <h2>Waxom Video Presentation</h2>
-                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur
-                    mutationem
-                    consuetudium.</p>
-                <span class="video-timer">03:26</span>
-            </div>
-        </section>
-        
-        <section class="mobile-devices">
-            <h2>Excellent for Mobile Devices.</h2>
-            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
-                claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-            <ul>
-                <li>Nam liber tempor cum soluta nobis eleifend option;</li>
-                <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
-                <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
-                <li>Investigationes demonstraverunt lectores</li>
-            </ul>
-        </section>
-        <section class="rates">
-            <div class="container">
-                <ul class="rate-box">
-                    <li class="rate">
-                        <img src="img/clients.svg" alt="clients-logo">
-                        <h2>3587</h2>
-                        <h3>Satisfied Clients</h3>
-                    </li>
-                    <li class="rate">
-                        <img src="img/coffee.svg" alt="coffee">
-                        <h2>207</h2>
-                        <h3>Cups of coffee</h3>
-                    </li>
-                    <li class="rate">
-                        <img src="img/blog-post.svg" alt="blog post">
-                        <h2>2500</h2>
-                        <h3>Blog posts</h3>
-                    </li>
-                    <li class="rate">
-                        <img src="img/like.svg" alt="like icon">
-                        <h2>873</h2>
-                        <h3>Likes</h3>
-                    </li>
-                    <li class="rate">
-                        <img src="img/lunch.svg" alt="lunch icon">
-                        <h2>900</h2>
-                        <h3>We launched</h3>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="recent-posts">
-            <h2>Recent Posts.</h2>
-            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-                processus dynamicus, qui sequitur mutationem consuetudium.</p>
-            <div class="article-box">
-                <ul>
-                    <li>
-                        <article>
-                            <img src="img/post-1.jpg" alt="post img">
-                            <h2>Lorem ipsum dolor sit amet</h2>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                            <a href="#">Read More</a>
-                            <div class="date">
-                                <span class="data">30</span>
-                                <span class="day">sep.</span>
-                            </div>
-                            <ul class="carusel-pagination">
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <img src="img/post_2.jpg" alt="post img">
-                            <figcaption>
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                <a href="#">Read More</a>
-                            </figcaption>
-                            <div class="date">
-                                <span class="data">30</span>
-                                <span class="day">sep.</span>
-                            </div>
-                            <ul class="carusel-pagination">
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <img src="img/post_3.jpg" alt="post img">
-                            <figcaption>
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                                <a href="#">Read More</a>
-                            </figcaption>
-                            <div class="date">
-                                <span class="data">30</span>
-                                <span class="day">sep.</span>
-                            </div>
-                            <ul class="carusel-pagination">
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                                <li><a href="#" class="carusel-pagination-item"></a></li>
-                            </ul>
-                        </article>
-                    </li>
-                </ul>
-            </div>
-        </section>
         <section class="partners">
             <img src="img/logo-barber.png" alt="barber logo">
             <img src="img/logo-delicious.png" alt="delicious logo">

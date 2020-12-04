@@ -1,8 +1,58 @@
-
 .mobile-devices {
     width: 100%;
     min-height: 695px;
     background-image: url(../img/phone-in-hand.png);
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+.mobile-devices-content {
+    min-height: 695px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: left;
+}
+
+.mobile-devices-align {
+    text-align: left;
+}
+
+.mobile-devices-heading {
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding: 0 0 40px 0;
+}
+
+.mobile-devices-paragraph {
+    max-width: 671px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    line-height: 28px;
+    padding: 0 0 21px 0;
+}
+
+.mobile-devices-list {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    line-height: 32px; 
+}
+
+.mobile-devices-list-item::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/arrow-small.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21px;
+    width: 21px;
+    margin-right: 27px;
+    margin-bottom: -4px;
 }

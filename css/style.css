@@ -1,3 +1,4 @@
+@import "./reset.css";
 @import "../fonts/fonts.css";
 @import "./layout.css";
 @import "./advantages.css";
@@ -8,3 +9,6 @@
 @import "./mobile-devices.css";
 @import "./purchase-now.css";
 @import "./latest-projects.css";
+@import "video-presentation.css";
+@import "recent-posts.css";
+@import "pagination.css";

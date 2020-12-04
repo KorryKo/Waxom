@@ -1,20 +1,38 @@
+.rates {
+    background-color: #472D20;
+}
 
 .rate-box {
+    height: 300px;
     display: flex;
-    justify-content: space-between;
-}
-
-.rate {
-    list-style: none;
-}
-
-.partners {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    min-height: 489px;
+    justify-content: space-between;
+    text-align: center;
+}
 
-    background-image: url(../img/background-bottom.png);
-    background-repeat: no-repeat;
+.rate::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: #f1eee9;
+    margin: 24px auto;
+}
+
+.rate-number {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 200;
+    color: #ffffff;
+    line-height: 36px;
+    padding: 30px 0 21px 0;
+}
+
+.rate-description {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    color: #c7b299;
+    line-height: 20px;
+    text-transform: uppercase;
 }
