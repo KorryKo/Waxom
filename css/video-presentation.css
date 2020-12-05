@@ -33,6 +33,7 @@
   line-height: 0;
   padding: 15px;
   margin: 0 0 44px 0;
+  transition: .3s;
 }
 
 .video-content-heading {
@@ -59,4 +60,20 @@
   font-size: 14px;
   color: #c7b299;
   line-height: 24px;
+}
+
+.video-circle{
+transition: .3s;
+transform-origin: 50% 50%;
+}
+
+.video-button:hover .video-circle{
+  animation: myRotation ease 2s infinite alternate;
+}
+.video-button:active {
+  transform: scale(1.2);
+}
+@keyframes myRotation{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
