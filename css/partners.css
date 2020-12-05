@@ -1,9 +1,12 @@
 .partners {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
-    min-height: 489px;
     background-image: url(../img/background-bottom.png);
     background-repeat: no-repeat;
+}
+
+.partners-box{
+    align-items: center;
+    min-height: 489px;
+    display: flex;
+    justify-content: space-between;
 }

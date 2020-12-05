@@ -35,7 +35,7 @@
                     </div>
 
                     <div class="navigation-right">
-                        <a href="#" class="navigation-right-item">
+                        <a href="#">
                             <img src="img/icon-cart.svg" alt="cart icon" width="18" height="24">
                         </a>
                         <a href="#">
@@ -68,11 +68,26 @@
             <button class="carusel-btn right"></button>
 
             <div class="carusel-pagination">
-                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
-                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
-                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
-                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
-                <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                <label>
+                    <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="carusel-pagination" class="carusel-pagination-item">
+                    <span></span>
+                </label>
             </div>
         </div>
 
@@ -155,6 +170,10 @@
             </ul>
             <ul class="gallery">
                 <li class="gallery-item">
+
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
+
                     <figure>
                         <img class="gallery-item-photo" src="img/phone.jpg" alt="phone" width="370" height="237">
                         <figcaption class="gallery-item-description">
@@ -164,6 +183,9 @@
                     </figure>
                 </li>
                 <li class="gallery-item">
+
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
                     <figure>
                         <img class="gallery-item-photo" src="img/rock-in-the-sea.jpg" alt="rock in the sea" width="370"
                             height="237">
@@ -174,6 +196,8 @@
                     </figure>
                 </li>
                 <li class="gallery-item">
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
                     <figure>
                         <img class="gallery-item-photo" src="img/book.jpg" alt="book" width="370" height="237">
                         <figcaption class="gallery-item-description">
@@ -183,6 +207,8 @@
                     </figure>
                 </li>
                 <li class="gallery-item">
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
                     <figure>
                         <img class="gallery-item-photo" src="img/birds.jpg" alt="birds" width="370" height="237">
                         <figcaption class="gallery-item-description">
@@ -192,6 +218,8 @@
                     </figure>
                 </li>
                 <li class="gallery-item">
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
                     <figure>
                         <img class="gallery-item-photo" src="img/magazine.jpg" alt="magazine" width="370" height="237">
                         <figcaption class="gallery-item-description">
@@ -201,6 +229,8 @@
                     </figure>
                 </li>
                 <li class="gallery-item">
+                    <button class="gallery-btn btn-link"></button>
+                    <button class="gallery-btn btn-lupa"></button>
                     <figure>
                         <img class="gallery-item-photo" src="img/rock-hill.jpg" alt="rock hill" width="370"
                             height="237">
@@ -409,80 +439,125 @@
                 <button class="article-navigation-item"><img src="img/article-right.svg" alt="nav right"></button>
             </div>
         </section>
-        <!--
-        <section class="partners">
-            <img src="img/logo-barber.png" alt="barber logo">
-            <img src="img/logo-delicious.png" alt="delicious logo">
-            <img src="img/logo-designers.png" alt="designers logo">
-            <img src="img/logo-cafe.png" alt="cafe logo">
-        </section>
-        -->
-    </main>
-    <!--
-    <footer>
-        <div class="footer-top">
-            <div class="footer-about-us">
-                <div>
-                    <a href="#" class="logo">
-                        <img src="img/logo.svg" alt="logo">
-                        <span class="logo-txt">Waxom</span>
-                    </a>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                    suscipit lobortis claritatem.</p>
-                <a href="#">Read More</a>
-            </div>
-            <div class="footer-recent-posts">
-                <h2>Recent Posts</h2>
-                <span>September 08, 2015</span>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                <hr>
-                <span>September 08, 2015</span>
-                <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-                <hr>
-                <span>September 08, 2015</span>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
-                <hr>
-            </div>
-            <div class="footer-twitter">
-                <h2>Our Twitter</h2>
-                <p><a href="#">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet</p>
-                <span>3 mins ago</span>
-                <hr>
-                <p>Mirum est <a href="#">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit
-                    litterarum</p>
-                <span>5 hours ago</span>
-                <hr>
-                <p>Soluta nobis option <a href="#">bit.ly/1Hniso7</a></p>
-                <span>20 days ago</span>
-                <hr>
-            </div>
-            <div class="footer-widget">
-                <h2>Dribbble Widget</h2>
-                <ul>
-                    <li><img src="img/footer-widget-phone.jpg" alt="widget phone"></li>
-                    <li><img src="img/footer-widget-bag.jpg" alt="widget bag"></li>
-                    <li> <img src="img/footer-widget-magazine.jpg" alt="widget magazine"></li>
-                    <li><img src="img/footer-widget-icons.jpg" alt="widjet icons"></li>
-                </ul>
 
+        <section class="partners">
+            <div class="partners-box container">
+                <a href="#"><img src="img/logo-barber.png" alt="barber logo"></a>
+                <a href="#"><img src="img/logo-delicious.png" alt="delicious logo"></a>
+                <a href="#"><img src="img/logo-designers.png" alt="designers logo"></a>
+                <a href="#"><img src="img/logo-cafe.png" alt="cafe logo"></a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <h2 class="visually-hidden">About us footer</h2>
+        <div class="footer-top">
+            <div class="footer-top-box container">
+                <div class="footer-about-us">
+                    <div class="footer-logo">
+                        <a href="#" class="logo">
+                            <img src="img/logo.svg" alt="logo">
+                            <span class="logo-txt">Waxom</span>
+                        </a>
+                    </div>
+                    <p class="footer-about-us-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                        diam
+                        nonummy nibh euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        suscipit lobortis claritatem.</p>
+                    <a class="footer-about-us-link" href="#">Read More</a>
+                </div>
+
+                <div class="footer-recent-posts">
+                    <h3 class="footer-heading-3">Recent Posts</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="footer-recent-posts-item-date">September 08, 2015</span>
+                                <p class="footer-recent-posts-item-p">Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit
+                                </p>
+                                <hr class="footer-hr">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="footer-recent-posts-item-date">September 08, 2015</span>
+                                <p class="footer-recent-posts-item-p">Diam nonummy nibh euismod tincidunt ut laoreet
+                                    dolore
+                                    magna
+                                </p>
+                                <hr class="footer-hr">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="footer-recent-posts-item-date">September 08, 2015</span>
+                                <p class="footer-recent-posts-item-p">Claritas est etiam processus dynamicus, qui
+                                    sequitur
+                                    mutationem per seacula quarta decima</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-twitter">
+                    <h3 class="footer-heading-3">Our Twitter</h3>
+                    <ul>
+                        <li>
+                            <p class="footer-twitter-item-p"><a class="twitter-link" href="#">@waxom</a> Cum soluta
+                                nobis
+                                eleifend option congue
+                                nihil imperdiet</p>
+                            <span class="twitter-time">3 mins ago</span>
+                            <hr class="footer-hr">
+                        </li>
+                        <li>
+                            <p class="footer-twitter-item-p">
+                                Mirum est <a class="twitter-link" href="#">#envato</a> notare
+                                quam littera gothica,
+                                quam nunc putamus parum
+                                anteposuerit
+                                litterarum</p>
+                            <span class="twitter-time">5 hours ago</span>
+
+                            <hr class="footer-hr">
+                        </li>
+                        <li>
+                            <p class="footer-twitter-item-p">
+                                Soluta nobis option <a class="twitter-link" href="#">bit.ly/1Hniso7</a>
+                            </p>
+                            <span class="twitter-time">20 days ago</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3 class="footer-heading-3">Dribbble Widget</h3>
+                    <ul class="footer-widget-list">
+                        <li><img src="img/footer-widget-phone.jpg" alt="widget phone"></li>
+                        <li><img src="img/footer-widget-bag.jpg" alt="widget bag"></li>
+                        <li> <img src="img/footer-widget-magazine.jpg" alt="widget magazine"></li>
+                        <li><img src="img/footer-widget-icons.jpg" alt="widjet icons"></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <ul>
-                <li>Copyright &copy; 2015<a href="#">Waxom</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-            <ul>
-                <li>Designed by <a href="#">ThemeFire</a></li>
-                <li>Only on <a href="#">Envato Market</a></li>
-            </ul>
+            <div class="footer-bootom-list-box container">
+                <ul class="footer-bottom-list">
+                    <li>Copyright &copy; 2015 <a class="footer-bottom-list-brandlink" href="#">Waxom</a></li>
+                    <li><a class="footer-bottom-list-item" href="#">Privacy Policy</a></li>
+                    <li><a class="footer-bottom-list-item" href="#">FAQ</a></li>
+                    <li><a class="footer-bottom-list-item" href="#">Support</a></li>
+                </ul>
+                <ul class="footer-bottom-list">
+                    <li>Designed by <a class="footer-bottom-list-brandlink" href="#">ThemeFire</a></li>
+                    <li>Only on <a class="footer-bottom-list-brandlink" href="#">Envato Market</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
-    -->
 </body>
 
 </html>

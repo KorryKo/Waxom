@@ -1,10 +1,10 @@
-.article-pagination [type="radio"]:checked,
-.article-pagination [type="radio"]:not(:checked) {
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
   position: absolute;
   left: -9999px;
 }
-.article-pagination [type="radio"]:checked + span,
-.article-pagination [type="radio"]:not(:checked) + span {
+[type="radio"]:checked + span,
+[type="radio"]:not(:checked) + span {
   position: relative;
   padding-left: 20px;
   cursor: pointer;
@@ -12,11 +12,11 @@
   display: inline-block;
   color: #666;
 }
-.article-pagination [type="radio"]:not(:checked) + span:before {
+[type="radio"]:not(:checked) + span:before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
+  top: 2px;
   width: 10px;
   height: 10px;
   border: 1px solid #d3c1ad;
@@ -24,8 +24,8 @@
   border-radius: 100%;
   background: #fff;
 }
-.article-pagination [type="radio"]:checked + span:after,
-.article-pagination [type="radio"]:not(:checked) + span:after {
+[type="radio"]:checked + span:after,
+[type="radio"]:not(:checked) + span:after {
   content: '';
   width: 10px;
   height: 10px;
@@ -39,12 +39,12 @@
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.article-pagination [type="radio"]:not(:checked) + span:after {
+[type="radio"]:not(:checked) + span:after {
   opacity: 0;
   -webkit-transform: scale(0);
   transform: scale(0);
 }
-.article-pagination [type="radio"]:checked + span:after {
+[type="radio"]:checked + span:after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
