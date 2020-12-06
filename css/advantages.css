@@ -11,12 +11,26 @@
 }
 
 .advantage {
-
-    list-style: none;
     width: 20%;
     padding: 0 33px;
     text-align: center;
     align-self: center;
+}
+
+.special > h3,img,:after{
+    transition: 0.3s linear;
+}
+
+.special:hover>h3 {
+    color: #c7b299;  
+}
+
+.special:hover:after {
+    background-color: #c7b299;
+}
+
+.special:hover>img {
+    filter: invert(71%) sepia(26%) saturate(260%) hue-rotate(352deg) brightness(110%) contrast(89%);
 }
 
 .advantage::after {

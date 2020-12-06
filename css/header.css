@@ -20,6 +20,11 @@
     display: flex;
     align-items: center;
     color: #fff;
+    transition: .3s;
+}
+
+.logo:hover {
+    opacity: .67;
 }
 
 .logo-txt {
@@ -46,10 +51,23 @@
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 300;
+    transition: .3s;
 }
 
-.navigation-right-item {
+.navigation-item:hover {
+    color: #c7b299;
+}
+
+.navigation-right>a:first-child {
     padding: 0 16px;
+}
+
+.navigation-right>a {
+    transition: .3s;
+}
+
+.navigation-right>a:hover {
+   opacity: .67;
 }
 
 .header-content {
@@ -90,7 +108,6 @@
     height: 53px;
     width: 170px;
     border-radius: 3px;
-    border: none;
     text-transform: uppercase;
     font-family: 'Raleway';
     font-size: 14px;

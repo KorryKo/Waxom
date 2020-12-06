@@ -1,0 +1,20 @@
+.partners {
+    width: 100%;
+    background-image: url(../img/background-bottom.png);
+    background-repeat: no-repeat;
+}
+
+.partners-box{
+    align-items: center;
+    min-height: 489px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-box img{
+    transition: .3s;
+}
+
+.partners-box img:hover{
+    transform: scale(1.2);
+}
