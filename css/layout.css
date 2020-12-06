@@ -18,6 +18,7 @@ button, a{
 a{
     transition: .3s;
 }
+
 a:hover{
     color: #c7b299;
 }

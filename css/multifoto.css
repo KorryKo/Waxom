@@ -6,7 +6,7 @@
 }
 
 .about-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -14,7 +14,7 @@
 }
 
 .about-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -27,7 +27,6 @@
     background-image: url('../img/browser-left.png'),
         url('../img/browser-center.png'),
         url('../img/browser-right.png');
-
     background-size: 60%, 40%, 40%;
     background-repeat: no-repeat;
     background-position: bottom center, bottom left, bottom right;

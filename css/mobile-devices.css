@@ -20,7 +20,7 @@
 }
 
 .mobile-devices-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -29,7 +29,7 @@
 
 .mobile-devices-paragraph {
     max-width: 671px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -38,11 +38,11 @@
 }
 
 .mobile-devices-list {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
-    line-height: 32px; 
+    line-height: 32px;
 }
 
 .mobile-devices-list-item::before {
@@ -51,8 +51,8 @@
     background-image: url(../img/arrow-small.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 21px;
-    width: 21px;
+    height: 22px;
+    width: 22px;
     margin-right: 27px;
-    margin-bottom: -4px;
+    margin-bottom: -5px;
 }

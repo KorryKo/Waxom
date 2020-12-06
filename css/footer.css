@@ -23,9 +23,8 @@
     width: 23%;
 }
 
-
 .footer-about-us-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #555555;
@@ -35,7 +34,7 @@
 }
 
 .footer-about-us-link {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     color: #d1d1d1;
     line-height: 20px;
@@ -49,7 +48,7 @@
 
 .footer-heading-3 {
     padding: 0 0 33px 0;
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
@@ -60,15 +59,9 @@
     padding: 0 0 30px 0;
 }
 
-
-.footer-recent-posts a {
-    text-decoration: none;
-}
-
-
 .footer-recent-posts-item-date,
 .twitter-time {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #363636;
@@ -84,10 +77,9 @@
     color: #c7b299;
 }
 
-
 .footer-recent-posts-item-p,
 .footer-twitter-item-p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #555555;
@@ -95,7 +87,6 @@
     text-align: left;
     transition: .3s;
 }
-
 
 .twitter-link {
     text-decoration: none;
@@ -111,16 +102,11 @@
     margin: 20px 0;
 }
 
-
 .footer-widget-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-grow: 0.1;
-}
-
-.footer-widget-list>li {
-    margin: 0;
 }
 
 .footer-bottom {
@@ -135,14 +121,14 @@
 
 .footer-bottom-list {
     display: flex;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 13px;
     font-weight: 300;
     color: #555555;
     line-height: 20px;
 }
 
-.footer-bottom-list>li {
+.footer-bottom-list-item {
     display: block;
     border-right: 1px solid #252525;
     padding: 0 10px 0 0;
@@ -150,20 +136,14 @@
     box-sizing: border-box;
 }
 
-.footer-bottom-list>li:last-child {
+.footer-bottom-list-item:last-child {
     border: none;
 }
 
 .footer-bottom-list-brandlink {
     color: #959595;
-    text-decoration: none;
 }
 
-.footer-bottom-list-item {
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 300;
+.footer-bottom-list-link {
     color: #555555;
-    line-height: 20px;
 }

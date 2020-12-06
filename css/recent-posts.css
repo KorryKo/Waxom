@@ -7,9 +7,8 @@
     justify-content: space-between;
 }
 
-
 .article-date {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-align: center;
     line-height: 20px;
@@ -51,14 +50,12 @@
     background-color: #332B29;
 }
 
-
-
 .recent-posts-content {
     text-align: center;
 }
 
 .recent-posts-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -66,7 +63,7 @@
 }
 
 .recent-posts-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -80,7 +77,6 @@
     border: 1px solid #f8f8f8;
     margin: 40px 0 40px 0;
 }
-
 
 .article-date {
     display: flex;
@@ -114,7 +110,7 @@
 }
 
 .article-content-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #555555;
@@ -122,7 +118,7 @@
 }
 
 .article-content-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #8c8c8c;
@@ -132,7 +128,7 @@
 
 .article-content-link {
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #c7b299;
@@ -148,7 +144,6 @@
     text-align: center;
 }
 
-
 .article-navigation-item {
     border: none;
     background-color: transparent;
@@ -156,5 +151,5 @@
 }
 
 .article-navigation-item:hover {
- filter: invert(30%) sepia(26%) saturate(260%) hue-rotate(352deg) brightness(110%) contrast(89%);
+    filter: invert(30%) sepia(26%) saturate(260%) hue-rotate(352deg) brightness(110%) contrast(89%);
 }

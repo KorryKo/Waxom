@@ -37,7 +37,7 @@
 }
 
 .video-content-heading {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #ffffff;
@@ -45,7 +45,7 @@
 }
 
 .video-content-paragraph {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
@@ -56,7 +56,7 @@
 }
 
 .video-timer {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #c7b299;
   line-height: 24px;
@@ -68,11 +68,13 @@ transform-origin: 50% 50%;
 }
 
 .video-button:hover .video-circle{
-  animation: myRotation ease 2s infinite alternate;
+    animation: myRotation ease .5s infinite alternate;
 }
+
 .video-button:active {
   transform: scale(1.2);
 }
+
 @keyframes myRotation{
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
