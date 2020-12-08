@@ -53,9 +53,20 @@
 }
 
 .advantage-paragraph {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #8c8c8c;
     line-height: 24px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .advantage-box {
+        flex-direction: column;
+    }
+    .advantage{
+        width: 90%;
+        padding: 33px 0;
+    }
 }

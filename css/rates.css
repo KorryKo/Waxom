@@ -3,7 +3,7 @@
 }
 
 .rate-box {
-    height: 300px;
+    min-height: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,4 +35,11 @@
     color: #c7b299;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .rate-box {
+        flex-direction: column;
+        padding: 24px 0;
+    }
 }

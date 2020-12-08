@@ -34,7 +34,7 @@
 }
 
 .footer-about-us-link {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #d1d1d1;
     line-height: 20px;
@@ -48,7 +48,7 @@
 
 .footer-heading-3 {
     padding: 0 0 33px 0;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
@@ -61,7 +61,7 @@
 
 .footer-recent-posts-item-date,
 .twitter-time {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #363636;
@@ -79,7 +79,7 @@
 
 .footer-recent-posts-item-p,
 .footer-twitter-item-p {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #555555;
@@ -116,12 +116,13 @@
 .footer-bootom-list-box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 45px 0;
 }
 
 .footer-bottom-list {
     display: flex;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 300;
     color: #555555;
@@ -146,4 +147,44 @@
 
 .footer-bottom-list-link {
     color: #555555;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-top-box {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .footer-about-us {
+        width: auto;
+    }
+
+    .footer-recent-posts,
+    .footer-twitter,
+    .footer-widget {
+        width: 70%;
+    }
+
+    .footer-heading-3 {
+        text-align: center;
+        padding: 24px 0 24px 0;
+    }
+
+    .footer-bootom-list-box {
+        justify-content: center;
+    }
+
+    .footer-bottom-list-item {
+        margin: 0 0 12px 0;
+        padding: 4px 6px;
+    }
+
+    .footer-widget-list {
+        justify-content: center;
+    }
+
+    .footer-widget-list-item {
+        padding: 0 2px;
+    }
 }

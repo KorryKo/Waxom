@@ -31,3 +31,16 @@
     background-repeat: no-repeat;
     background-position: bottom center, bottom left, bottom right;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-heading {
+        padding: 33px;
+    }
+
+    .multi_photo {
+        background-image: url('../img/browser-left.png');
+        background-size: 90%;
+        background-position: top center, center center, bottom center;
+        min-height: 225px;
+    }
+}

@@ -73,7 +73,7 @@
 .article {
     position: relative;
     height: 395px;
-    width: 370px;
+    max-width: 370px;
     border: 1px solid #f8f8f8;
     margin: 40px 0 40px 0;
 }
@@ -152,4 +152,15 @@
 
 .article-navigation-item:hover {
     filter: invert(30%) sepia(26%) saturate(260%) hue-rotate(352deg) brightness(110%) contrast(89%);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .article-box{
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .article-navigation{
+       padding: 0 0 32px 0;
+   }
 }

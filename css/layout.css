@@ -2,7 +2,8 @@
     margin: 0;
 }
 
-button, a{
+button,
+a {
     cursor: pointer;
 }
 
@@ -15,10 +16,17 @@ button, a{
     display: none;
 }
 
-a{
+a {
     transition: .3s;
 }
 
-a:hover{
+a:hover {
     color: #c7b299;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+    }
 }

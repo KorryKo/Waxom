@@ -79,3 +79,9 @@ transform-origin: 50% 50%;
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .video-content{
+    text-align: center;
+  }
+}
