@@ -1,5 +1,4 @@
 .mobile-devices {
-    width: 100%;
     min-height: 695px;
     background-image: url(../img/phone-in-hand.png);
     background-repeat: no-repeat;
@@ -57,9 +56,10 @@
     margin-bottom: -5px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 768px) {
     .mobile-devices {
-        background-size: 50%;
+        background-size: 40%;
+        background-position: 5% 130%;
     }
 
     .mobile-devices-align {
@@ -80,5 +80,12 @@
         left: -32px;
         top: 2px;
         position: absolute;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-devices {
+        background-size: 50%;
+        background-position: bottom left;
     }
 }

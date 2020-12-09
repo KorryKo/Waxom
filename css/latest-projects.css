@@ -60,11 +60,11 @@
     overflow: hidden;
 }
 
-.gallery-item:hover>figure:after {
+.gallery-item:hover .gallery-item-figure:after {
     top: 0;
 }
 
-.gallery-item>figure:after {
+.gallery-item-figure:after {
     content: '';
     position: absolute;
     box-sizing: border-box;
@@ -190,13 +190,18 @@
     text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+    .gallery {
+        justify-content: space-around;
+    }
+}
+
 @media (max-width: 480px) {
     .latest-projects {
         padding: 33px 0;
     }
 
     .latest-projects-btn-list {
-        width: 100%;
         justify-content: center;
         flex-wrap: wrap;
     }

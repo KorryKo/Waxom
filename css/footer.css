@@ -4,14 +4,14 @@
 }
 
 .footer-top {
-    background-color: #191919;
-    width: 100%;
+    background-color: #191919;;
 }
 
 .footer-top-box {
     display: flex;
     justify-content: space-between;
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .footer-widget,
@@ -117,7 +117,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 45px 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .footer-bottom-list {

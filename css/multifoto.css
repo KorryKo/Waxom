@@ -1,5 +1,4 @@
 .about {
-    width: 100%;
     max-height: 700px;
     background-color: #FBFAF8;
     text-align: center;
@@ -22,7 +21,6 @@
 }
 
 .multi_photo {
-    width: 100%;
     min-height: 382px;
     background-image: url('../img/browser-left.png'),
         url('../img/browser-center.png'),
