@@ -24,9 +24,13 @@ a:hover {
     color: #c7b299;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (max-width: 480px) {
     .container {
-        max-width: 480px;
-        margin: 0 auto;
+        min-width: 340px;
+    }
+
+    img {
+        width: 100%;
     }
 }

@@ -49,8 +49,8 @@
     background-color: white;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    .carusel{
+@media (max-width: 480px) {
+    .carusel {
         display: none;
     }
 }

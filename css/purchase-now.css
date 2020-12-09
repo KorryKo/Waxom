@@ -41,13 +41,14 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .purchase-now-box {
         flex-direction: column;
         text-align: center;
         padding: 33px 0;
     }
-    .purchase-now-paragraph{
+
+    .purchase-now-paragraph {
         padding: 14px 0;
     }
 }

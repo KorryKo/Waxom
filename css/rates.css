@@ -37,7 +37,7 @@
     text-transform: uppercase;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .rate-box {
         flex-direction: column;
         padding: 24px 0;

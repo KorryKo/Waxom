@@ -62,26 +62,31 @@
   line-height: 24px;
 }
 
-.video-circle{
-transition: .3s;
-transform-origin: 50% 50%;
+.video-circle {
+  transition: .3s;
+  transform-origin: 50% 50%;
 }
 
-.video-button:hover .video-circle{
-    animation: myRotation ease .5s infinite alternate;
+.video-button:hover .video-circle {
+  animation: myRotation ease .5s infinite alternate;
 }
 
 .video-button:active {
   transform: scale(1.2);
 }
 
-@keyframes myRotation{
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+@keyframes myRotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .video-content{
+@media (max-width: 480px) {
+  .video-content {
     text-align: center;
   }
 }

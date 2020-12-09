@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.partners-box{
+.partners-box {
     align-items: center;
     min-height: 489px;
     display: flex;
@@ -20,13 +20,13 @@
     transform: scale(1.2);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    .partners-box{
+@media (max-width: 480px) {
+    .partners-box {
         flex-direction: column;
         padding: 24px 0;
     }
 
-    .partners-img{
+    .partners-img {
         padding: 24px 0;
     }
 }

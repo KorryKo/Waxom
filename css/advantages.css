@@ -61,11 +61,12 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .advantage-box {
         flex-direction: column;
     }
-    .advantage{
+
+    .advantage {
         width: 90%;
         padding: 33px 0;
     }

@@ -70,14 +70,15 @@
         width: 50%;
         line-height: 28px;
     }
-    .mobile-devices-list-item{
+
+    .mobile-devices-list-item {
         margin: 0 4px 4px 8px;
         position: relative;
     }
 
-    .mobile-devices-list-item::before{
-      left: -32px;
-      top:2px;
+    .mobile-devices-list-item::before {
+        left: -32px;
+        top: 2px;
         position: absolute;
     }
 }
