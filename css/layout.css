@@ -27,7 +27,7 @@ a:hover {
 
 @media (max-width: 480px) {
     .container {
-        min-width: 340px;
+        min-width: 320px;
     }
 
     img {
