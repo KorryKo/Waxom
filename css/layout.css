@@ -2,7 +2,8 @@
     margin: 0;
 }
 
-button, a{
+button,
+a {
     cursor: pointer;
 }
 
@@ -15,9 +16,28 @@ button, a{
     display: none;
 }
 
-a{
+a {
     transition: .3s;
 }
-a:hover{
+
+a:hover {
     color: #c7b299;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+    }
 }

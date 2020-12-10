@@ -1,5 +1,4 @@
 .video-presentation {
-  width: 100%;
   min-height: 705px;
   position: relative;
   color: #fff;
@@ -7,7 +6,6 @@
 }
 
 .video-file {
-  width: 100%;
   object-fit: cover;
   filter: brightness(33%);
 }
@@ -37,7 +35,7 @@
 }
 
 .video-content-heading {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #ffffff;
@@ -45,7 +43,7 @@
 }
 
 .video-content-paragraph {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
@@ -56,24 +54,37 @@
 }
 
 .video-timer {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #c7b299;
   line-height: 24px;
 }
 
-.video-circle{
-transition: .3s;
-transform-origin: 50% 50%;
+.video-circle {
+  transition: .3s;
+  transform-origin: 50% 50%;
 }
 
-.video-button:hover .video-circle{
-  animation: myRotation ease 2s infinite alternate;
+.video-button:hover .video-circle {
+  animation: myRotation ease .5s infinite alternate;
 }
+
 .video-button:active {
   transform: scale(1.2);
 }
-@keyframes myRotation{
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+
+@keyframes myRotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .video-content {
+    text-align: center;
+  }
 }

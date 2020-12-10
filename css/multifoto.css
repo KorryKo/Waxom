@@ -1,12 +1,11 @@
 .about {
-    width: 100%;
     max-height: 700px;
     background-color: #FBFAF8;
     text-align: center;
 }
 
 .about-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -14,7 +13,7 @@
 }
 
 .about-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -22,13 +21,24 @@
 }
 
 .multi_photo {
-    width: 100%;
     min-height: 382px;
     background-image: url('../img/browser-left.png'),
         url('../img/browser-center.png'),
         url('../img/browser-right.png');
-
     background-size: 60%, 40%, 40%;
     background-repeat: no-repeat;
     background-position: bottom center, bottom left, bottom right;
+}
+
+@media (max-width: 480px) {
+    .about-heading {
+        padding: 33px;
+    }
+
+    .multi_photo {
+        background-image: url('../img/browser-left.png');
+        background-size: 90%;
+        background-position: top center, center center, bottom center;
+        min-height: 225px;
+    }
 }

@@ -1,20 +1,39 @@
 .partners {
-    width: 100%;
     background-image: url(../img/background-bottom.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.partners-box{
+.partners-box {
     align-items: center;
     min-height: 489px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.partners-box img{
+.partners-img {
     transition: .3s;
 }
 
-.partners-box img:hover{
+.partners-img:hover {
     transform: scale(1.2);
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+    .partners-box {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partners-box {
+        flex-direction: column;
+        padding: 24px 0;
+    }
+
+    .partners-img {
+        padding: 24px 0;
+    }
 }

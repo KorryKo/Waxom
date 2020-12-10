@@ -5,13 +5,12 @@
 .purchase-now-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    align-items: center;;
     min-height: 150px;
 }
 
 .purchase-now-heading {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 28px;
     color: #ffffff;
     padding: 0 0 8px 0;
@@ -22,7 +21,7 @@
 }
 
 .purchase-now-paragraph {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: #615855;
@@ -32,11 +31,27 @@
     background-color: #9A8776;
     height: 50px;
     width: 170px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 800;
     color: #ffffff;
     text-align: center;
     line-height: 23px;
     text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 480px) {
+    .purchase-now-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 33px 0;
+    }
+
+    .purchase-now-paragraph {
+        padding: 14px 0;
+    }
 }
