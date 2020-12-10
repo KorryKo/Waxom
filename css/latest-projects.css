@@ -3,7 +3,7 @@
 }
 
 .latest-projects-header {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -11,7 +11,7 @@
 }
 
 .latest-projects-paragraph {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -30,7 +30,7 @@
     border: 1px solid #ebebeb;
     border-radius: 3px;
     background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
@@ -160,14 +160,14 @@
 }
 
 .gallery-item-heading3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #c7b299;
 }
 
 .gallery-item-heading4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #d1d1d1;
@@ -182,7 +182,7 @@
     background-color: #9A8776;
     height: 50px;
     width: 170px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 800;
     color: #ffffff;

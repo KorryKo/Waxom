@@ -19,7 +19,7 @@
 }
 
 .mobile-devices-heading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -28,7 +28,7 @@
 
 .mobile-devices-paragraph {
     max-width: 671px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -37,7 +37,7 @@
 }
 
 .mobile-devices-list {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
