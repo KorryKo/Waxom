@@ -23,8 +23,8 @@
 .multi_photo {
     min-height: 382px;
     background-image: url('../img/browser-left.png'),
-    url('../img/browser-center.png'),
-    url('../img/browser-right.png');
+        url('../img/browser-center.png'),
+        url('../img/browser-right.png');
     background-size: 60%, 40%, 40%;
     background-repeat: no-repeat;
     background-position: bottom center, bottom left, bottom right;

@@ -5,7 +5,8 @@
 .purchase-now-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;;
+    align-items: center;
+    ;
     min-height: 150px;
 }
 
@@ -40,9 +41,7 @@
     text-transform: uppercase;
 }
 
-@media (max-width: 1024px) {
-
-}
+@media (max-width: 1024px) {}
 
 @media (max-width: 480px) {
     .purchase-now-box {
