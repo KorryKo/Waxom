@@ -20,7 +20,7 @@
 }
 
 .rate-number {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 48px;
     font-weight: 200;
     color: #ffffff;
@@ -29,7 +29,7 @@
 }
 
 .rate-description {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #c7b299;

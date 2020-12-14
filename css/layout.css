@@ -24,6 +24,14 @@ a:hover {
     color: #c7b299;
 }
 
+a:focus {
+    outline: 3px solid #c7b299;
+}
+
+button:focus {
+    border: 3px solid #c7b299;
+}
+
 @media (max-width: 1024px) {
     .container {
         max-width: 1024px;

@@ -113,13 +113,13 @@ a {
 }
 
 @font-face {
-  font-family: "montserrat";
+  font-family: "Montserrat";
   src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "montserrat";
+  font-family: "Montserrat";
   src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -148,6 +148,14 @@ a {
 
 a:hover {
   color: #c7b299;
+}
+
+a:focus {
+  outline: 3px solid #c7b299;
+}
+
+button:focus {
+  border: 3px solid #c7b299;
 }
 
 @media (max-width: 1024px) {
@@ -212,7 +220,7 @@ a:hover {
 }
 
 .advantage-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #555555;
@@ -220,7 +228,7 @@ a:hover {
 }
 
 .advantage-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #8c8c8c;
@@ -295,6 +303,7 @@ a:hover {
 .main-header {
   min-height: 1024px;
   background-image: url(../img/background.png);
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   position: relative;
@@ -334,7 +343,7 @@ a:hover {
   padding: 0 15px;
   color: white;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   transition: 0.3s;
@@ -363,7 +372,7 @@ a:hover {
 }
 
 .header-content-h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 500;
   color: #ffffff;
@@ -371,7 +380,7 @@ a:hover {
 }
 
 .header-content-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 52px;
   font-weight: 800;
   color: #ffffff;
@@ -379,7 +388,7 @@ a:hover {
 }
 
 .header-content-p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
@@ -391,11 +400,11 @@ a:hover {
 .header-button {
   background-color: #998675;
   color: white;
-  height: 53px;
+  min-height: 53px;
   width: 170px;
   border-radius: 3px;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 800;
   text-align: center;
@@ -451,7 +460,7 @@ a:hover {
 }
 
 .about-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #555555;
@@ -459,7 +468,7 @@ a:hover {
 }
 
 .about-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
@@ -508,7 +517,7 @@ a:hover {
 }
 
 .rate-number {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 48px;
   font-weight: 200;
   color: #ffffff;
@@ -517,7 +526,7 @@ a:hover {
 }
 
 .rate-description {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #c7b299;
@@ -552,7 +561,7 @@ a:hover {
 }
 
 .mobile-devices-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #555555;
@@ -561,7 +570,7 @@ a:hover {
 
 .mobile-devices-paragraph {
   max-width: 671px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
@@ -570,7 +579,7 @@ a:hover {
 }
 
 .mobile-devices-list {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
@@ -633,7 +642,7 @@ a:hover {
 }
 
 .purchase-now-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 28px;
   color: #ffffff;
   padding: 0 0 8px 0;
@@ -644,7 +653,7 @@ a:hover {
 }
 
 .purchase-now-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #615855;
@@ -654,7 +663,7 @@ a:hover {
   background-color: #9A8776;
   height: 50px;
   width: 170px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 800;
   color: #ffffff;
@@ -679,7 +688,7 @@ a:hover {
 }
 
 .latest-projects-header {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #555555;
@@ -687,7 +696,7 @@ a:hover {
 }
 
 .latest-projects-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
@@ -706,7 +715,7 @@ a:hover {
   border: 1px solid #ebebeb;
   border-radius: 3px;
   background-color: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 300;
@@ -836,14 +845,14 @@ a:hover {
 }
 
 .gallery-item-heading3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #c7b299;
 }
 
 .gallery-item-heading4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #d1d1d1;
@@ -858,7 +867,7 @@ a:hover {
   background-color: #9A8776;
   height: 50px;
   width: 170px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 800;
   color: #ffffff;
@@ -901,17 +910,18 @@ a:hover {
 }
 
 .video-file {
+  height: 705px;
+  width: 100%;
   object-fit: cover;
   filter: brightness(33%);
 }
 
 .video-content {
   min-height: 705px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   position: absolute;
   top: 10%;
-  left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -930,7 +940,7 @@ a:hover {
 }
 
 .video-content-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #ffffff;
@@ -938,7 +948,7 @@ a:hover {
 }
 
 .video-content-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
@@ -949,7 +959,7 @@ a:hover {
 }
 
 .video-timer {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   color: #c7b299;
   line-height: 24px;
@@ -991,7 +1001,7 @@ a:hover {
 }
 
 .article-date {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
   line-height: 20px;
@@ -1038,7 +1048,7 @@ a:hover {
 }
 
 .recent-posts-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #555555;
@@ -1046,7 +1056,7 @@ a:hover {
 }
 
 .recent-posts-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
@@ -1093,7 +1103,7 @@ a:hover {
 }
 
 .article-content-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #555555;
@@ -1101,7 +1111,7 @@ a:hover {
 }
 
 .article-content-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #8c8c8c;
@@ -1111,7 +1121,7 @@ a:hover {
 
 .article-content-link {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #c7b299;
@@ -1269,7 +1279,7 @@ a:hover {
 }
 
 .footer-about-us-paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #555555;
@@ -1279,7 +1289,7 @@ a:hover {
 }
 
 .footer-about-us-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   color: #d1d1d1;
   line-height: 20px;
@@ -1293,7 +1303,7 @@ a:hover {
 
 .footer-heading-3 {
   padding: 0 0 33px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
@@ -1306,7 +1316,7 @@ a:hover {
 
 .footer-recent-posts-item-date,
 .twitter-time {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 300;
   color: #363636;
@@ -1324,7 +1334,7 @@ a:hover {
 
 .footer-recent-posts-item-p,
 .footer-twitter-item-p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #555555;
@@ -1368,7 +1378,7 @@ a:hover {
 
 .footer-bottom-list {
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #555555;

@@ -8,7 +8,7 @@
 }
 
 .article-date {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-weight: 300;
     text-align: center;
     line-height: 20px;
@@ -55,7 +55,7 @@
 }
 
 .recent-posts-heading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #555555;
@@ -63,7 +63,7 @@
 }
 
 .recent-posts-paragraph {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
@@ -110,7 +110,7 @@
 }
 
 .article-content-heading {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #555555;
@@ -118,7 +118,7 @@
 }
 
 .article-content-paragraph {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #8c8c8c;
@@ -128,7 +128,7 @@
 
 .article-content-link {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #c7b299;
